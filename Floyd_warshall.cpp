@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<V;i++){
         for(int j=0;j<V;j++){
             cin>>adjMat[i][j];
-            if(adjMat[i][j]==-1)
+            if(adjMat[i][j]==0)
                 adjMat[i][j]=INT_MAX;
         }
     }
